@@ -162,3 +162,7 @@ Using Gradio or Streamlit (to be decided), we plan to provide a simple web inter
 - Optionally display a few example images and typical failure cases.
 
 ---
+ai->0, real->1
+source .venv/bin/activate
+python3 src/train.py --stage1-epochs 3 --stage2-epochs 7 --sample-ratio 0.5
+python3 src/train.py --stage1-epochs 3 --stage2-epochs 7
